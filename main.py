@@ -50,13 +50,7 @@ def takeCommand():
     return query
 
 
-def sendEmail(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('singhmanika2219@gmail.com', 'Loveumom123@')
-    server.sendmail('singhmanika2219@gmail.com', to, advmadansingh3412@gmail.com)
-    server.close()
+
 
 
 if __name__ == "__main__":
